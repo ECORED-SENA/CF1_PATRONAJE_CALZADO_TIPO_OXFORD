@@ -54,7 +54,7 @@
                     img(src='@/assets/curso/tema3/6.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Desarrollo de prototipos]
-                    p.text-center Se elaboran prototipos para verificar que el calzado cumple con las especificaciones técnicas del producto y se ajustas de ser necesario.
+                    p.text-center Se elaboran prototipos para verificar que el calzado cumple con las especificaciones técnicas del producto y se ajustan de ser necesario.
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema3/7.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
@@ -182,13 +182,13 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-check-circle.bg-color-17
-                  | #[strong Selección de piezas:] Identificación de las áreas a desbastar, como la suela, el corte o las uniones.
+                  | #[strong Selección de piezas:] identificación de las áreas a desbastar, como la suela, el corte o las uniones.
                 li 
                   i.fas.fa-check-circle.bg-color-17
-                  | #[strong Control de presión y grosor:] Aplicación precisa de la presión para evitar daños en el material.
+                  | #[strong Control de presión y grosor:] aplicación precisa de la presión para evitar daños en el material.
                 li 
                   i.fas.fa-check-circle.bg-color-17
-                  | #[strong Limpieza:] Eliminación de residuos generados antes de continuar con la fabricación.
+                  | #[strong Limpieza:] eliminación de residuos generados antes de continuar con la fabricación.
       
             .div(titulo="Herramientas utilizadas")
               p Uso de maquinaria desbastadora y cuchillas para lograr un acabado preciso.
@@ -273,7 +273,7 @@
       
   
       .titulo-tres.mb-4(data-aos="flip-up")
-        h4(data-aos="fade-up") Máquinas de coses utilizadas
+        h4(data-aos="fade-up") Máquinas de coser utilizadas
   
       p.mb-5 En la fabricación del calzado se emplean diferentes tipos de máquinas de coser, cada una diseñada para cumplir funciones específicas según la estructura y material del calzado.
       
@@ -301,7 +301,7 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2
               h4 Máquinas de doble aguja
-              p Generan costuras reforzadas, especialmente utilizadas en calzado industrial y deportivo para mayor resistencia.
+              p Generan costuras reforzadas, especialmente utilizadas en calzado industrial y deportivo, para mayor resistencia.
             .col-md-6.order-1.d-none.d-md-block
               figure.p-4
                 img(src='@/assets/curso/tema3/21.png', alt='Máquina de doble aguja', style='max-width: 520px;')
@@ -376,7 +376,7 @@
               p  La suela se adhiere mediante pegado, costura o vulcanización, dependiendo del tipo de calzado.
             .tarjeta.color-acento-botones--borde.p-5(titulo="Prensado y <br>moldeado final")
               h4 Prensado y moldeado final
-              p Se aplica calor y presión para mejorar la adherencia y dar el acabado final,
+              p Se aplica calor y presión para mejorar la adherencia y dar el acabado final.
         .col-lg-5
           figure(data-aos="zoom-in-up")
             img(src='@/assets/curso/tema3/32.png', alt='')

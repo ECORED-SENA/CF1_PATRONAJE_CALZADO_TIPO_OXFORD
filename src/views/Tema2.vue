@@ -100,30 +100,30 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Plana vs. Con tacón.] Los zapatos planos brindan estabilidad y comodidad, mientras que los de tacón realzan la postura y la elegancia.
+                | #[strong Plana vs. con tacón.] Los zapatos planos brindan estabilidad y comodidad, mientras que los de tacón realzan la postura y la elegancia.
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Goma vs. Cuero.] Las suelas de goma ofrecen mayor tracción y amortiguación, mientras que las de cuero son más rígidas y elegantes, pero menos antideslizantes.
+                | #[strong Goma vs. cuero.] Las suelas de goma ofrecen mayor tracción y amortiguación, mientras que las de cuero son más rígidas y elegantes, pero menos antideslizantes.
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Flexible vs. Rígida.] Los tenis deportivos tienen suelas flexibles para amortiguar impactos, mientras que las botas de seguridad tienen suelas rígidas para mayor protección.
+                | #[strong Flexible vs. rígida.] Los tenis deportivos tienen suelas flexibles para amortiguar impactos, mientras que las botas de seguridad tienen suelas rígidas para mayor protección.
 
           .div(titulo="Protección y soporte")
             ul.lista-ul--color
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Bota vs. Zapato bajo.] Las botas cubren el tobillo o la pierna, brindando mayor protección, mientras que los zapatos bajos permiten mayor movilidad.
+                | #[strong Bota vs. zapato bajo.] Las botas cubren el tobillo o la pierna, brindando mayor protección, mientras que los zapatos bajos permiten mayor movilidad.
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Punta de acero vs. Punta reforzada.] En el calzado industrial, las botas con punta de acero protegen contra impactos fuertes, mientras que las de punta reforzada ofrecen protección media sin el peso del acero.
-          .div(titulo="Protección y soporte")
+                | #[strong Punta de acero vs. punta reforzada.] En el calzado industrial, las botas con punta de acero protegen contra impactos fuertes, mientras que las de punta reforzada ofrecen protección media sin el peso del acero.
+          .div(titulo="Estilo y uso")
             ul.lista-ul--color
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Casual vs. Formal.] Los zapatos casuales priorizan la comodidad y versatilidad, mientras que los formales buscan elegancia y sofisticación.
+                | #[strong Casual vs. formal.] Los zapatos casuales priorizan la comodidad y versatilidad, mientras que los formales buscan elegancia y sofisticación.
               li 
                 i.fas.fa-check-circle.bg-color-17
-                | #[strong Deportivo vs. Urbano.] Los tenis deportivos están diseñados para alto rendimiento, mientras que los urbanos combinan estilo y comodidad para el día a día.
+                | #[strong Deportivo vs. urbano.] Los tenis deportivos están diseñados para alto rendimiento, mientras que los urbanos combinan estilo y comodidad para el día a día.
       .col-lg-4
         figure
           img(src="@/assets/curso/tema2/2.png", alt="").mt-4.mt-lg-0
@@ -135,7 +135,7 @@
           .col-lg-auto
             img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
-            p.mb-0 Cada modelo de calzado se adapta a diferentes necesidades, estilos y actividades, por lo que conocer sus diferencias ayuda a elegir el más adecuado para cada ocasión
+            p.mb-0 Cada modelo de calzado se adapta a diferentes necesidades, estilos y actividades, por lo que conocer sus diferencias ayuda a elegir el más adecuado para cada ocasión.
     
 </template>
 
