@@ -35,14 +35,14 @@
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema3/3.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
-                      h4.text-center.mb-0.text-color-black #[strong Registro en el ICA]
-                    p.text-center Todos los alimentos, suplementos, sales mineralizadas, plaguicidas, fertilizantes e insumos agrícolas deben tener registro en el ICA.
+                      h4.text-center.mb-0.text-color-black #[strong Investigación de tendencias]
+                    p.text-center Se analizan modas, colores , materiales y necesidades del mercado.
   
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema3/4.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Bocetos]
-                    p.text-center Se analizan modas, colores, materiales y necesidades del mercado.
+                    p.text-center Se crean dibujos técnicos del producto a desarrollar
   
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema3/5.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
