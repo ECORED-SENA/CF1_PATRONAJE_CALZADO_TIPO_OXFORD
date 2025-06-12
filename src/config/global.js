@@ -249,7 +249,7 @@ export default {
     {
       termino: 'Textil',
       significado:
-        'material compuesto por fibras naturales (algodón, lino, lana) o sintéticas (poliéster, nylon) que se utiliza en la fabricación de calzado, especialmente en modelos deportivos y casuales, debido a su ligereza y transpirabilidad.',
+        'material compuesto por fibras naturales (algodón, lino, lana) o sintéticas (poliéster, nailon) que se utiliza en la fabricación de calzado, especialmente en modelos deportivos y casuales, debido a su ligereza y transpirabilidad.',
     },
   ],
   referencias: [
@@ -311,7 +311,7 @@ export default {
         },
         {
           nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
@@ -322,31 +322,31 @@ export default {
       autores: [
         {
           nombre: 'Diana Milena Picón Rincón',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Regional Antioquia - Centro de Formación Centro de Servicios de Salud.',
         },
         {
           nombre: 'Cielo Damaris Angulo Rodriguez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador fullstack',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
           nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
@@ -363,25 +363,25 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },

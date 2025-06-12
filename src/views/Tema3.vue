@@ -125,7 +125,7 @@
   
             .tarjeta.color-acento-botones--borde.p-4(titulo="Nobuk")
               h4.mb-5 Nobuk
-              p.mb-0 Se produce lijando la capa superior del cuero. Tiene una textura similar A la gamuza, pero con mayor resistencia. Se usa en botas y calzado elegante.
+              p.mb-0 Se produce lijando la capa superior del cuero. Tiene una textura similar a la gamuza, pero con mayor resistencia. Se usa en botas y calzado elegante.
   
             .tarjeta.color-acento-botones--borde.p-4(titulo="Cuero charol")
               h4.mb-5 Cuero charol
@@ -224,7 +224,7 @@
                   img(src='@/assets/curso/cf2/tema1/img20.svg', alt='' style="max-width: 400px").m-auto
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6.mb-4.col-xs-12
-                h4.mb-4 Nylon y poliéster
+                h4.mb-4 Nailon y poliéster
                 p.mb-0 Alta resistencia a la tensión y al desgaste, se secan rápidamente y permiten transpiración. Se utilizan en tejidos para zapatillas deportivas, forros internos y refuerzos.
               .col-xl-6
                 figure.d-none.d-xl-block
@@ -333,7 +333,7 @@
                   img(src='@/assets/curso/cf2/tema1/img24.svg', alt='' style="max-width: 400px").m-auto
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6.mb-4.col-xs-12
-                h4.mb-4 Nylon
+                h4.mb-4 Nailon
                 p.mb-0 Muy fuerte y resistente a la abrasión, estiramiento y deformación. Suave y duradera. Se emplea en tenis deportivos, refuerzos laterales, forros internos y mallas transpirables.
               .col-xl-6
                 figure.d-none.d-xl-block

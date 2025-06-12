@@ -156,7 +156,7 @@
                     h5 Chapeta
                       p.mb-0 Pieza ubicada en la parte superior del empeine, generalmente en la zona de la cordonera o lengüeta, que refuerza y mejora el ajuste.
               .col-lg-5
-                img(src='@/assets/curso/tema1/22.svg', style="max-width: 479px").mx-auto
+                img(src='@/assets/curso/tema1/22.svg', style="max-width: 479px" alt="Diagrama de las partes externas de un zapato, donde se destacan componentes como la cordonera, la capellada, la puntera y el talón. Cada parte está señalada con etiquetas explicativas. ").mx-auto
 
             .row.pt-lg-4.align-items-center
               .col-lg-7.mb-4.mb-lg-0
@@ -174,7 +174,7 @@
                     h5 Talón
                       p.mb-0 Parte trasera de la bota que envuelve y protege la zona del talón del pie, proporcionando soporte y estabilidad.
               .col-lg-5
-                img(src='@/assets/curso/tema1/23.svg', style="max-width: 479px").mx-auto
+                img(src='@/assets/curso/tema1/23.svg', style="max-width: 479px" alt="Diagrama de una bota que identifica sus partes principales. Se destacan la caña, ubicada en la parte superior; el talón, en la parte trasera inferior; y la capellada, en la zona frontal del calzado. ").mx-auto
 
       
 

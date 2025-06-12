@@ -48,7 +48,7 @@
                     img(src='@/assets/curso/tema3/5.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Elaboración de patrones]
-                    p.text-center Se generan moldes en papel o software especializado, que servirán como base para el corte de materiales.
+                    p.text-center Se generan moldes en papel o <em>software </em> especializado, que servirán como base para el corte de materiales.
   
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema3/6.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
@@ -370,7 +370,7 @@
               p La capellada se ajusta a una horma con la forma deseada para darle estructura.
             .tarjeta.color-acento-botones--borde.p-5(titulo="Tensado y <br>fijación")
               h4 Tensado y fijación
-              p Se estiran las pieza para eliminar arrugas y se fijan con clavos o adhesivos.
+              p Se estiran las piezas para eliminar arrugas y se fijan con clavos o adhesivos.
             .tarjeta.color-acento-botones--borde.p-5(titulo="Unión de <br>la suela")
               h4 Unión de la suela
               p  La suela se adhiere mediante pegado, costura o vulcanización, dependiendo del tipo de calzado.
