@@ -10,7 +10,7 @@
   
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/tema3/1b.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 La fabricación de calzado es un proceso que involucra varias etapas, desde el diseño hasta el acabado final. Cada fase es crucial para garantizar un producto de calidad, cómodo y funcional. A continuación, se explican las principales etapas de la producción de calzado.
@@ -33,30 +33,30 @@
               .col-lg-7
                 SlyderF.mb-5(columnas="col-lg-6")(data-aos="zoom-in-up")
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
-                    img(src='@/assets/curso/tema3/3.svg', style="max-width: 89px", alt='').mx-auto.mb-4
+                    img(src='@/assets/curso/tema3/3b.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Investigación de tendencias]
                     p.text-center Se analizan modas, colores , materiales y necesidades del mercado.
   
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
-                    img(src='@/assets/curso/tema3/4.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                    img(src='@/assets/curso/tema3/4b.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Bocetos]
                     p.text-center Se crean dibujos técnicos del producto a desarrollar
   
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
-                    img(src='@/assets/curso/tema3/5.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                    img(src='@/assets/curso/tema3/5b.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Elaboración de patrones]
                     p.text-center Se generan moldes en papel o <em>software </em> especializado, que servirán como base para el corte de materiales.
   
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
-                    img(src='@/assets/curso/tema3/6.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                    img(src='@/assets/curso/tema3/6b.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Desarrollo de prototipos]
                     p.text-center Se elaboran prototipos para verificar que el calzado cumple con las especificaciones técnicas del producto y se ajustan de ser necesario.
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
-                    img(src='@/assets/curso/tema3/7.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                    img(src='@/assets/curso/tema3/7b.svg', alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                     .bg-color-8.d-inline-block.px-2.py-1.mb-3
                       h4.text-center.mb-0.text-color-black #[strong Pruebas de ajuste y ergonomía]
                     p.text-center Se desarrollan muestras físicas para verificar la comodidad y el ajuste antes de la producción masiva.
@@ -115,43 +115,40 @@
   
       p.mb-5 Existen diversas técnicas para el corte de materiales en la fabricación de calzado. Cada método ofrece ventajas según el tipo de material y el nivel de precisión requerido.
       
-      TabsC.color-acento-contenido.mb-5
-        .py-3.py-md-4(titulo="Manual")
-          .row.align-items-center
-            .col-md-6
-              figure.p-4
-                img(src='@/assets/curso/tema3/13.png', alt='', style='max-width: 520px;').mx-auto
-            .col-md-6.mb-4.mb-md-0
-              h4 Manual
+      TabsA.color-acento-botones.mb-5.pb-4
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Manual")
+          .row.justify-content-center.align-items-start
+            .col-lg-auto.order-2.order-lg-2
+              figure(data-aos="zoom-in").d-none.d-xl-block
+                img(src='@/assets/curso/tema4/1.png', alt='', style="max-width: 468px;").img400.m-auto
+            .col-lg.order-1.order-lg-1.mb-4.mb-lg-0
+              h4.txt--purpura.mb-4 Manual
               p Uso de tijeras o cuchillas para cortar piezas siguiendo plantillas de papel o cartón.
-  
-        .py-3.py-md-4(titulo="Troquelado")
-          .row.align-items-center
-            .col-md-6.mb-4.mb-md-0
-              figure.p-4
-                img(src='@/assets/curso/tema3/12.png', alt='', style='max-width: 520px;')
-            .col-md-6
-              h4 Troquelado
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Troquelado")
+          .row.justify-content-center.align-items-start
+            .col-lg-auto.order-2.order-lg-2
+              figure(data-aos="zoom-in").d-none.d-xl-block
+                img(src='@/assets/curso/tema4/2.png', alt='', style="max-width: 468px;").img400.m-auto
+            .col-lg.order-1.order-lg-1.mb-4.mb-lg-0
+              h4.txt--purpura.mb-4 Troquelado
               p Empleo de moldes de acero afilados (troqueles) que, mediante presión, cortan las piezas con alta precisión.
-  
-        .py-3.py-md-4(titulo="Corte láser")
-          .row.align-items-center
-            .col-md-6.mb-4.mb-md-0
-              figure.p-4
-                img(src='@/assets/curso/tema3/14.png', alt='', style='max-width: 520px;')
-            .col-md-6
-              h4 Corte láser
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Corte láser")
+          .row.justify-content-center.align-items-start
+            .col-lg-auto.order-2.order-lg-2
+              figure(data-aos="zoom-in").d-none.d-xl-block
+                img(src='@/assets/curso/tema4/3.png', alt='', style="max-width: 468px;").img400.m-auto
+            .col-lg.order-1.order-lg-1.mb-4.mb-lg-0
+              h4.txt--purpura.mb-4 Corte láser
               p Tecnología de precisión utilizada en materiales como cuero, sintéticos y textiles.
-  
-        .py-3.py-md-4(titulo="Corte automatizado")
-          .row.align-items-center
-            .col-md-6.mb-4.mb-md-0
-              figure.p-4
-                img(src='@/assets/curso/tema3/15.png', alt='', style='max-width: 520px;')
-            .col-md-6
-              h4 Corte automatizado
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Corte automatizado")
+          .row.justify-content-center.align-items-start
+            .col-lg-auto.order-2.order-lg-2
+              figure(data-aos="zoom-in").d-none.d-xl-block
+                img(src='@/assets/curso/tema4/4.png', alt='', style="max-width: 468px;").img400.m-auto
+            .col-lg.order-1.order-lg-1.mb-4.mb-lg-0
+              h4.txt--purpura.mb-4 Corte automatizado
               p Corte programado con cuchilla oscilante que ofrece mayor precisión.
-  
+      
       Separador
   
       #t_4_3.titulo-segundo.color-acento-contenido
@@ -160,7 +157,10 @@
       p.mb-5 El desbaste es una etapa clave en la fabricación del calzado, ya que prepara las piezas para su ensamblaje y pegado. Este proceso consiste en rebajar, lijar o desgastar los bordes del cuero para mejorar la adherencia del pegamento y garantizar una unión firme entre las piezas.
   
       .row.align-items-start.mb-5
-        .col-lg-8
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/tema4/5.png", alt="").mb-4.mb-lg-0
+        .col-lg-7
       
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .div(titulo="Objetivos")
@@ -193,9 +193,7 @@
             .div(titulo="Herramientas utilizadas")
               p Uso de maquinaria desbastadora y cuchillas para lograr un acabado preciso.
       
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema3/16.png", alt="").mb-4.mb-lg-0
+
       
       Separador
   
@@ -209,13 +207,13 @@
       .row.justify-content-center
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema3/17.png", alt="").mb-4.mb-lg-0
+            img(src="@/assets/curso/tema4/6.png", alt="").mb-4.mb-lg-0
         .col-lg-8
           div.row.justify-content-center.mb-5
             div.col-lg-6.mb-4(data-aos="zoom-in-up")
-              .tarjeta.bg-color-16.box-shadow.px-4.py-5.h-100
+              .tarjeta.bg-color-19.box-shadow.px-4.py-5.h-100
                 img.mx-auto.d-block.mb-4(
-                  src="@/assets/curso/tema3/27.svg"
+                  src="@/assets/curso/tema4/7.svg"
                   alt=""
                   style="width: 90px"
                 )
@@ -223,9 +221,9 @@
                 p.mb-0.text-center Se usa adhesivo temporal para posicionar las piezas antes de coserlas.
           
             div.col-lg-6.mb-4(data-aos="zoom-in-up")
-              .tarjeta.bg-color-16.box-shadow.px-4.py-5.h-100
+              .tarjeta.bg-color-19.box-shadow.px-4.py-5.h-100
                 img.mx-auto.d-block.mb-4(
-                  src="@/assets/curso/tema3/28.svg"
+                  src="@/assets/curso/tema4/8.svg"
                   alt=""
                   style="width: 90px"
                 )
@@ -242,9 +240,9 @@
   
       div.row.justify-content-center.align-items-stretch.mb-5
         div.col-lg-4.mb-4(data-aos="zoom-in-up")
-          .tarjeta.bg-color-18.box-shadow.px-4.py-5.h-100
+          .tarjeta.bg-color-20.box-shadow.px-4.py-5.h-100
             img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/29.svg"
+              src="@/assets/curso/tema4/9.svg"
               alt=""
               style="width: 90px"
             )
@@ -252,9 +250,9 @@
             p.mb-0.text-center Unión de dos piezas con una línea recta de puntadas, utilizada en estructuras básicas.
       
         div.col-lg-4.mb-4(data-aos="zoom-in-up")
-          .tarjeta.bg-color-18.box-shadow.px-4.py-5.h-100
+          .tarjeta.bg-color-20.box-shadow.px-4.py-5.h-100
             img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/30.svg"
+              src="@/assets/curso/tema4/10.svg"
               alt=""
               style="width: 90px"
             )
@@ -262,9 +260,9 @@
             p.mb-0.text-center  Refuerzo adicional para unir materiales gruesos, mejorando la resistencia y durabilidad.
       
         div.col-lg-4.mb-4(data-aos="zoom-in-up")
-          .tarjeta.bg-color-18.box-shadow.px-4.py-5.h-100
+          .tarjeta.bg-color-20.box-shadow.px-4.py-5.h-100
             img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/31.svg"
+              src="@/assets/curso/tema4/11.svg"
               alt=""
               style="width: 90px"
             )
@@ -286,7 +284,7 @@
               p Facilitan la costura en zonas curvas del calzado, permitiendo un mejor ajuste en áreas difíciles de alcanzar.
             .col-md-6.order-1.d-none.d-md-block
               figure.p-4
-                img(src='@/assets/curso/tema3/19.png', alt='Máquina de codo', style='max-width: 520px;')
+                img(src='@/assets/curso/tema4/12.png', alt='Máquina de codo', style='max-width: 520px;')
   
         .p-3.p-md-4(titulo="Máquinas de columna o poste")
           .row.align-items-center
@@ -295,7 +293,7 @@
               p Brindan mayor maniobrabilidad en materiales rígidos, lo que facilita el ensamblaje en calzado estructurado.
             .col-md-6.order-1.d-none.d-md-block
               figure.p-4
-                img(src='@/assets/curso/tema3/20.png', alt='Máquina de columna', style='max-width: 520px;')
+                img(src='@/assets/curso/tema4/13.png', alt='Máquina de columna', style='max-width: 520px;')
   
         .p-3.p-md-4(titulo="Máquinas de doble aguja")
           .row.align-items-center
@@ -304,7 +302,7 @@
               p Generan costuras reforzadas, especialmente utilizadas en calzado industrial y deportivo, para mayor resistencia.
             .col-md-6.order-1.d-none.d-md-block
               figure.p-4
-                img(src='@/assets/curso/tema3/21.png', alt='Máquina de doble aguja', style='max-width: 520px;')
+                img(src='@/assets/curso/tema4/14.png', alt='Máquina de doble aguja', style='max-width: 520px;')
                 figcaption.text-center Imagen tomada de: Maquina de poste dos agujas. (s. f.)
   
         .p-3.p-md-4(titulo="Máquina de costura sobrehilada")
@@ -314,7 +312,7 @@
               p Realiza costuras en zigzag o sobrehilado para unir la capellada con la plantilla o reforzar los bordes del corte mediante la inserción de un cordón o pita.
             .col-md-6.order-1.d-none.d-md-block
               figure.p-4
-                img(src='@/assets/curso/tema3/22.png', alt='Máquina de costura sobrehilada', style='max-width: 520px;')
+                img(src='@/assets/curso/tema4/15.png', alt='Máquina de costura sobrehilada', style='max-width: 520px;')
                 figcaption.text-center Imagen tomada de: Maquina sobrehiladora. (s. f.)
   
       Separador
@@ -331,35 +329,35 @@
           .tarjeta.bg-color-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
             SlyderA(tipo='b')
               .row.pt-lg-4.align-items-center
-                .col-lg-8.mb-4.mb-lg-0
+                .col-lg.mb-4.mb-lg-0
                   .pe-4
                     h4 Montaje Strobel
                     p.mt-4 Utilizado en calzado deportivo, consiste en coser la capellada a una plantilla flexible antes de añadir la suela, proporcionando mayor comodidad y flexibilidad.
-                .col-lg-4
-                  img(src='@/assets/curso/tema3/23.png', style="max-width: 479px").mx-auto
+                .col-lg-auto
+                  img(src='@/assets/curso/tema4/16.png', style="max-width: 521px").mx-auto
   
               .row.pt-lg-4
-                .col-lg-8.mb-4.mb-lg-0
+                .col-lg.mb-4.mb-lg-0
                   .pe-4
                     h4 Montaje String
                     p.mt-4 Variante del Strobel en la que la capellada se une a la plantilla mediante un cordón pasado a lo largo de su contorno, lo que otorga mayor resistencia y flexibilidad.
-                .col-lg-4
-                  img(src='@/assets/curso/tema3/24.png', style="max-width: 479px").mx-auto
+                .col-lg-auto
+                  img(src='@/assets/curso/tema4/17.png', style="max-width: 521px").mx-auto
   
               .row.pt-lg-4
-                .col-lg-8.mb-4.mb-lg-0
+                .col-lg.mb-4.mb-lg-0
                   .pe-4
                     h4 Montaje con pegado
                     p.mt-4 Se adhiere la capellada a la suela utilizando pegamento de alta resistencia, asegurando una fijación firme y duradera.
-                .col-lg-4
-                  img(src='@/assets/curso/tema3/25.png', style="max-width: 479px").mx-auto
+                .col-lg-auto
+                  img(src='@/assets/curso/tema4/18.png', style="max-width: 521px").mx-auto
   
       .titulo-tres.mb-4.mt-4(data-aos="flip-up")
         h4(data-aos="fade-up") Proceso de montaje paso a paso
   
       p.mb-5 El montaje del calzado sigue una serie de etapas que garantizan la correcta fijación de la capellada a la suela, asegurando la durabilidad y comodidad del producto.
   
-      .row.mb-5
+      .row
         .col-lg-7
           TabsA.color-acento-botones.mb-5
             //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -388,11 +386,11 @@
   
       p.mb-5 Esta fase final garantiza que el calzado cumpla con los estándares de calidad y tenga un acabado estético adecuado antes de su distribución.
       
-      .bg-color-8.mb-5
+      .bg-color-21.mb-5
         .row.justify-content-center.align-items-center
           .col-lg-auto
             figure(data-aos="zoom-in-up")
-              img(src='@/assets/curso/tema3/26.png', alt='')
+              img(src='@/assets/curso/tema4/19.png', alt='')
           .col-lg
             .p-4
             ul.lista-ul--color.color-secundario
