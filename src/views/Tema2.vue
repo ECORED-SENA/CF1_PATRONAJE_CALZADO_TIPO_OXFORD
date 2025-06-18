@@ -7,14 +7,13 @@
         span 2
       h1 Tipologías de calzado: características y usos
 
-    .bg-color-1.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/tema2/1.png', alt='')
-        .col-lg
-          .p-4
-            p.mb-0(data-aos="fade-up") El calzado es un elemento esencial en la vestimenta, diseñado para proteger los pies y proporcionar comodidad, estilo y funcionalidad según la ocasión y la actividad. Existen diversas tipologías de calzado, cada una con características y usos específicos que responden a necesidades particulares, desde el ámbito deportivo hasta el formal o industrial.
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/1b.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El calzado es un elemento esencial en la vestimenta, diseñado para proteger los pies y proporcionar comodidad, estilo y funcionalidad según la ocasión y la actividad. Existen diversas tipologías de calzado, cada una con características y usos específicos que responden a necesidades particulares, desde el ámbito deportivo hasta el formal o industrial.
+
     
     Separador
 
@@ -23,49 +22,49 @@
 
     p.mb-5 El calzado se clasifica principalmente según la función y el entorno en el que se usa. Algunas de las principales categorías son:
 
-    .bg-full-width.bg-fondo-slider(data-aos="fade-down").mb-5
-      .p-4.p-md-5       
-        .tarjeta.bg-color-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
-          SlyderA(tipo='b')
-            .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
-                .pe-4
-                  h4 Formal
-                  p.mt-4 Diseñado para eventos elegantes, trabajo de oficina o reuniones formales. Ejemplos: zapatos Oxford, Derby, mocasines y tacones de vestir.
-              .col-lg-4
-                img(src='@/assets/curso/tema2/slider-1.png', style="max-width: 479px").mx-auto
+    TabsC.color-acento-botones
+      .py-4.py-lg-5.px-4.px-lg-5(titulo="Formal")
+        .row.align-items-center
+          .col-lg.order-lg-2
+            h4 Formal
+            p Diseñado para eventos elegantes, trabajo de oficina o reuniones formales. Ejemplos: zapatos Oxford, Derby, mocasines y tacones de vestir.
+        
+          .col-lg-auto.order-lg-1
+            figure
+              img(src='@/assets/curso/tema2/slider-1.png', alt='', style="max-width: 468px")
+      .py-4.py-lg-5.px-4.px-lg-5(titulo="Deportivo")
+        .row.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema2/slider-2.png', alt='', style="max-width: 468px")
+          .col-lg
+            h4 Deportivo
+            p Creado para brindar soporte y amortiguación en actividades físicas. Ejemplos: tenis para correr, calzado de fútbol, zapatillas de baloncesto.
+      .py-4.py-lg-5.px-4.px-lg-5(titulo="Casual")
+        .row.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema2/slider-3.png', alt='', style="max-width: 468px")
+          .col-lg
+            h4 Casual
+            p Ideal para el día a día, combinando comodidad y estilo. Ejemplos: zapatillas urbanas, baletas, sandalias, botines.
+      .py-4.py-lg-5.px-4.px-lg-5(titulo="Industrial")
+        .row.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema2/slider-4.png', alt='', style="max-width: 468px")
+          .col-lg
+            h4 Industrial
+            p Diseñado para entornos de trabajo que requieren protección especial. Ejemplos: botas de seguridad con punta de acero, calzado dieléctrico, botas antideslizantes.
+      .py-4.py-lg-5.px-4.px-lg-5(titulo="Ortopédico")
+        .row.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema2/slider-5.png', alt='', style="max-width: 468px")
+          .col-lg
+            h4 Ortopédico
+            p Especialmente diseñado para corregir o aliviar problemas en los pies. Ejemplos: zapatos con plantillas anatómicas, calzado con soporte para el arco.
 
-            .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
-                .pe-4
-                  h4 Deportivo
-                  p.mt-4 Creado para brindar soporte y amortiguación en actividades físicas. Ejemplos: tenis para correr, calzado de fútbol, zapatillas de baloncesto.
-              .col-lg-4
-                img(src='@/assets/curso/tema2/slider-2.png', style="max-width: 479px").mx-auto
-
-            .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
-                .pe-4
-                  h4 Casual
-                  p.mt-4 Ideal para el día a día, combinando comodidad y estilo. Ejemplos: zapatillas urbanas, baletas, sandalias, botines.
-              .col-lg-4
-                img(src='@/assets/curso/tema2/slider-3.png', style="max-width: 479px").mx-auto
-
-            .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
-                .pe-4
-                  h4 Industrial
-                  p.mt-4 Diseñado para entornos de trabajo que requieren protección especial. Ejemplos: botas de seguridad con punta de acero, calzado dieléctrico, botas antideslizantes.
-              .col-lg-4
-                img(src='@/assets/curso/tema2/slider-4.png', style="max-width: 479px").mx-auto
-
-            .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
-                .pe-4
-                  h4 Ortopédico
-                  p.mt-4 Especialmente diseñado para corregir o aliviar problemas en los pies. Ejemplos: zapatos con plantillas anatómicas, calzado con soporte para el arco.
-              .col-lg-4
-                img(src='@/assets/curso/tema2/slider-5.png', style="max-width: 479px").mx-auto
 
     Separador
 
@@ -77,7 +76,7 @@
     .row.align-items-start.mb-5#aco-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema2/3.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema2/3b.png", alt="").mb-4.mb-lg-0
       .col-lg-8
     
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonB")
@@ -126,14 +125,14 @@
                 | #[strong Deportivo vs. urbano.] Los tenis deportivos están diseñados para alto rendimiento, mientras que los urbanos combinan estilo y comodidad para el día a día.
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema2/2.png", alt="").mt-4.mt-lg-0
+          img(src="@/assets/curso/tema2/2b.png", alt="").mt-4.mt-lg-0
 
 
     .row.justify-content-center
-      .col-lg-10.tarjeta.p-4.bg-color-11
+      .col-lg-10.tarjeta.p-4.bg-color-22
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/curso/tema2/4b.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 Cada modelo de calzado se adapta a diferentes necesidades, estilos y actividades, por lo que conocer sus diferencias ayuda a elegir el más adecuado para cada ocasión.
     
@@ -159,13 +158,13 @@ export default {
 <style lang="sass">
 
 .tarjeta.acordeonB
-  background-color: #D8CABD !important
+  background-color: #FBE7B9 !important
 
 .acordion__accion__btn--a.acordeonB
   background-color: $color-acento-botones !important
   i
-    color: black !important
+    color: #fff !important
 
 .acordion__activo.acordeonB
-  background-color: #FBF3BE !important
+  background-color: #DAF6D7 !important
 </style>

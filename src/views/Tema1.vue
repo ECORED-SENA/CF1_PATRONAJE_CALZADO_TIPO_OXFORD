@@ -1,20 +1,23 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Anatomía del calzado
- 
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 La anatomía del calzado se refiere a la estructura y las partes que componen un zapato, cada una con una función específica que influye en la comodidad, durabilidad y estética del producto. Comprender la anatomía del calzado es fundamental para su diseño y fabricación, ya que permite elegir materiales adecuados, definir procesos de ensamblaje y garantizar el ajuste correcto al pie del usuario.
 
+    .row
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/1b.png", data-aos="zoom-in", style="max-width: 295px").mb-4.mx-auto
+      .col-lg
+        .bg-color-21.p-4.py-xl-5(data-aos="fade-left").mb-4
+          p.mb-0 La anatomía del calzado se refiere a la estructura y las partes que componen un zapato, cada una con una función específica que influye en la comodidad, durabilidad y estética del producto. Comprender la anatomía del calzado es fundamental para su diseño y fabricación, ya que permite elegir materiales adecuados, definir procesos de ensamblaje y garantizar el ajuste correcto al pie del usuario.
+    
+
+  
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -42,40 +45,35 @@
         figure
           img(src="@/assets/curso/tema1/2.png",data-aos="zoom-in", alt="").mb-4.mb-lg-0
       .col-lg-8.order-lg-1
-    
-        AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
-          .div(titulo="Capellada")
+        LineaTiempoD.color-primario
+          div(numero="1" titulo="Capellada")
             p Parte superior del calzado que cubre el pie y define su diseño. Puede estar hecha de cuero, tela o materiales sintéticos.
-    
-          .div(titulo="Cordonera")
+          div(numero="2" titulo="Cordonera")
             p Zona del calzado con ojales o perforaciones por donde pasan los cordones, permitiendo el ajuste al pie.
-    
-          .div(titulo="Lengüeta")
+          div(numero="3" titulo="Lengüeta")
             p Ubicada debajo de los cordones, protege el pie del contacto con los ojales y ajustes.
-    
-          .div(titulo="Entresuela")
+          div(numero="4" titulo="Entresuela")
             p Capa intermedia entre la suela y la plantilla, diseñada para mejorar la amortiguación en ciertos tipos de calzado.
-
-          .div(titulo="Plantilla estructural")
+          div(numero="5" titulo="Plantilla estructural")
             p Pieza ubicada sobre la suela y debajo de la plantilla de confort, que aporta soporte, estabilidad y distribución del peso.
-  
+
+
 
     .row.align-items-start.mb-5
 
       .col-lg-8.order-lg-2.mb-3.mb-lg-0
-    
-        AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
-          .div(titulo="Cambrión")
+
+        LineaTiempoD.color-primario
+          div(numero="1" titulo="Cambrión")
             p Refuerzo en la parte media del calzado, entre la suela y la plantilla estructural, que mantiene la forma y resistencia del zapato.
-
-          .div(titulo="Suela")
+          div(numero="2" titulo="Suela")
             p Parte inferior del calzado que entra en contacto con el suelo, fabricada con materiales resistentes para mayor durabilidad y tracción.
-
-          .div(titulo="Tacón")
+          div(numero="3" titulo="Tacón")
             p Parte trasera y elevada del calzado, fabricada con diversos materiales (madera, plástico, goma, etc.), que proporciona altura, soporte y estabilidad.
-
-          .div(titulo="Tapa")
+          div(numero="4" titulo="Tapa")
             p Parte inferior del tacón en contacto con el suelo, hecha de materiales resistentes a la fricción, como caucho o plástico, para evitar desgaste y mejorar la tracción.
+    
+
       
       .col-lg-4.order-lg-1
         figure
@@ -103,7 +101,7 @@
 
         div.row.justify-content-center.align-items-stretch.mb-5
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-16.box-shadow.px-4.py-5.h-100
+            .tarjeta.bg-color-19.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(
                 src="@/assets/curso/tema1/21.svg"
                 alt=""
@@ -113,7 +111,7 @@
               p.mb-0.text-center Zona del calzado con ojales o perforaciones por donde pasan los cordones, permitiendo el ajuste al pie.
         
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-16.box-shadow.px-4.py-5.h-100
+            .tarjeta.bg-color-19.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(
                 src="@/assets/curso/tema1/21.svg"
                 alt=""
@@ -123,7 +121,7 @@
               p.mb-0.text-center Parte frontal del calzado que protege los dedos. Su diseño varía según el tipo de zapato, brindando diferentes niveles de protección, confort y estilo.
         
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-16.box-shadow.px-4.py-5.h-100
+            .tarjeta.bg-color-19.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(
                 src="@/assets/curso/tema1/21.svg"
                 alt=""
@@ -187,9 +185,9 @@
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/23.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/23b.png", data-aos="zoom-in")
       .col-lg-8
-        .bg-color-1.p-4.tarjeta.p-4.mb-3(data-aos="fade-left")
+        .bg-color-20.p-4.tarjeta.p-4.mb-3(data-aos="fade-left")
           .bg-color-13.px-3.py-2.tarjeta.mb-3
             h4.mb-0 Contrafuerte
             p.mb-0 Refuerzo en la parte trasera que proporciona estabilidad al talón.
@@ -208,50 +206,34 @@
 
     p.mb-5 Cada componente del calzado tiene una función clave en la estructura y comodidad del zapato:
 
-    .bg-full-width-2.bg-fondo-10
+
+    .bg-full-width.bg-fondo-12
       .px-4.px-md-5.pb-md-3
-        div.row.justify-content-center.align-items-stretch.mb-5
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-7.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/7.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h4.mb-4.text-center Diseño y estética
-              p.mb-0.text-center La capellada define la apariencia visual del calzado.
-        
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-7.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/8.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h4.mb-4.text-center Soporte y estabilidad
-              p.mb-0.text-center La suela y la entresuela proporcionan equilibrio y amortiguación.
-        
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-7.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/9.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h4.mb-4.text-center Protección
-              p.mb-0.text-center Elementos como la plantilla estructural, puntera y contrafuerte evitan lesiones y refuerzan el calzado.
-        
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            .tarjeta.bg-color-7.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/10.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h4.mb-4.text-center Ajuste y comodidad
-              p.mb-0.text-center El forro, la plantilla y la lengüeta reducen la fricción y mejoran la experiencia del usuario.
+        .row.justify-content-center.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema1/26.png', alt='', style="max-width: 295px")
+          .col-lg
+            .carousel-bg      
+              SlyderF(columnas="col-12 col-lg-6")
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app
+                  img(src='@/assets/curso/tema1/7b.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Diseño y estética
+                  p.text-center La capellada define la apariencia visual del calzado.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app
+                  img(src='@/assets/curso/tema1/8b.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Soporte y estabilidad
+                  p.text-center La suela y la entresuela proporcionan equilibrio y amortiguación.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app
+                  img(src='@/assets/curso/tema1/9b.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Protección
+                  p.text-center Elementos como la plantilla estructural, puntera y contrafuerte evitan lesiones y refuerzan el calzado.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app
+                  img(src='@/assets/curso/tema1/10b.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Ajuste y comodidad
+                  p.text-center El forro, la plantilla y la lengüeta reducen la fricción y mejoran la experiencia del usuario.
 
-
+    
 </template>
 
 <script>

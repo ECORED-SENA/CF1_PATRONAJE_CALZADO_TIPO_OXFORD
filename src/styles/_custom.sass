@@ -115,6 +115,10 @@ figcaption
   &-11
     background-image: url("../assets/bg/bg10.png") !important
     background-position: top
+  &-12
+    background-image: url("../assets/bg/bg11.png") !important
+    background-position: bottom
+
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -157,6 +161,16 @@ figcaption
     color: #2F5235 !important
   &-18
     background-color: #F7F4F2
+
+  &-19
+    background-color: #DAF6D7
+  &-20
+    background-color: #E3B9A9
+  &-21
+    background-color: #FBE7B9
+  &-22
+    background-color: #81381D
+  
   
   &-white
     background-color: white !important
@@ -165,6 +179,10 @@ figcaption
     background-color: $color-secundario !important
   &-sintesis
     background-color: #F6F6F6
+
+
+.tarjeta.bg-color-19:hover
+  background-color: #FBE7B9 !important
 
 // Variables
 $custom-card-border-radius: 0px
@@ -224,19 +242,21 @@ $custom-card-img-height: 205px
     background: url('../assets/bullets/icon1.svg') transparent no-repeat bottom left
 
 /*Componets custom*/
-.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content,
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #DAF6D7 !important
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #F1D3F6 !important
+  background-color: #7DE391 !important
 .linea-tiempo-d.color-primario .linea-tiempo-d__item__content,
 .linea-tiempo-d.color-primario .linea-tiempo-d__item__number
-  background-color: #D4F0E0 !important
+  background-color: #F1DCD4 !important
 
 .lista-ul--color.color-adicional-1 li > i:first-of-type
   color: $color-adicional-1 !important
 .tarjeta--boton.color-primario
   background-color: #F1D3F6 !important
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
-    background-color: $color-acento-botones;
+    background-color: $color-acento-botones
+    background-image: url("../assets/bullets/arrow.svg")
 .slyder-a__bullets__item 
     background-color: #FCF5C6
     border: 1px solid #FCF5C6;
@@ -279,7 +299,7 @@ $custom-card-img-height: 205px
    background-color: $color-acento-botones
    border-radius: 50%
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-   color: black
+   color: white
    font-size: 16px
 
 
@@ -307,7 +327,7 @@ $custom-card-img-height: 205px
     color: black !important
 
 .acordion__activo
-  background-color: #FBF3BE !important
+  background-color: #DAF6D7 !important
 
 .tabs-b__tab 
   background-color: #E8F5D5;
@@ -320,10 +340,10 @@ $custom-card-img-height: 205px
 
 
 .tabs-a__tab
-  background-color: #EFEAE5
+  background-color: #FAE6B8
 .tarjeta.color-acento-botones--borde
-  background-color: #FCF5CC
-  border: solid 4px #FCF5CC
+  background-color: #E4F9E8
+  border: solid 4px #E4F9E8
 
 
 .rounded-bottom
@@ -363,6 +383,13 @@ $custom-card-img-height: 205px
       p
         font-size: 0.85em
 
+.tabs-c__content-item
+  background-color: #F1FCF3 !important
 
 
+.barra-avance__boton--regresar
+  span
+    color: white !important
 
+.acordion__accion__btn--a i
+  color: #fff !important
